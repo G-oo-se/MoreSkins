@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main2.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="images/logo2.png" />
     <title>| MoreSkins |</title>
@@ -21,8 +22,7 @@
             <i class='bx bxl-youtube' ></i>
             <i class='bx bxl-telegram' ></i>
             <div class="header-login" id="login">
-                <i class='bx bxl-steam'></i>
-                <span><a href="#">ВОЙТИ</a></span>
+                <span><a href="#"></a></span>
             </div>
         </div>
     </div>
@@ -256,39 +256,24 @@
         <img src="images/logo2.png" alt="">
     </div>
 
-    <div class="login-popup" id="popup">
-        <div class="popup-con">
-            <div class="popup-body">
-                <p>ЛОГИН</p>
-                <form action="" id="loginForm">
-                    <input id="loginName" type="text" placeholder="Никнейм" required>
-                    <input id="loginPassword" type="password" placeholder="Пароль" required>
-                    <button type="submit">ВОЙТИ</button>
-                    <p>Нет аккаунта? <span id="regpopup">Создать</span></p>
-                    <span class="message" id="check"></span>
-                </form>
-                <div class="popup-remove" id="popupRemove">&#10006</div>
+    <div id="popup3" class="popup3">
+        <div class="popup-con3">
+            <div class="popup-inf">
+                <p id="loginUsernamePopup">Goose</p>
+                <div class="profile">
+                    <p>Мой профиль</p>
+                    <p>Об аккаунте</p>
+                    <p>Мой кошелек: <span>? тг</span></p>
+                </div>
+                <div class="account">
+                    <p>Войти в другой аккаунт</p>
+                    <p id="leaveAccount">Выйти из аккаунта</p>
+                </div>
+                <span id="popupRemove3" class="popup-remove3">&#10006</span>
             </div>
         </div>
     </div>
 
-    <div class="reg-popup" id="popup2">
-        <div class="popup-con">
-            <div class="popup-body">
-                <p>НОВЫЙ АКККАУНТ</p>
-                <form action="" id="regForm">
-                    <input id="regName" type="text" placeholder="Никнейм" required>
-                    <input id="regEmail" type="email" placeholder="Электронная почта" required>
-                    <input id="regPassword" type="password" placeholder="Пароль" required>
-                    <button type="submit">Создать</button>
-                    <p>Уже есть аккаунт? <span id="loginpopup">Войти</span></p>
-                    <span class="message" id="check2"></span>
-                </form>
-                <div class="popup-remove" id="popupRemove2">&#10006</div>
-            </div>
-        </div>
-    </div>
-
-    <script src="./main.js"></script>
+    <script src="./main2.js"></script>
 </body>
 </html>
