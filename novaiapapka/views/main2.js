@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     leaveAccount.addEventListener("click", (i) => {
         i.preventDefault();
         setTimeout(() => {
-            window.location.href = "main.html"
+            window.location.href = "index.ejs"
         }, 1000)
     })
 })

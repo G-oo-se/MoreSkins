@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem('nickname', userreg);
 
             setTimeout(() => {
-                window.location.href = "main2.html";
+                window.location.href = "index2.ejs";
             }, 2000);
         } else {
             checkForm.style.color = "red";
