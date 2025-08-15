@@ -97,7 +97,7 @@ body{
     font-weight: 700;
 }
 .cover{
-    background-image: url("/images/background.png");
+    background-image: url(images/1866\(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -108,22 +108,73 @@ body{
 .cover-wrapper{
     padding: 40px 250px;
 }
-.colorText{
-    color: rgb(255, 255, 255);
-    /* animation: 3s infinite colorTextAnim; */
+.cover .cover-wrapper .title .colorText{
+    color: rgba(0, 124, 203, 1);
 }
-@keyframes colorTextAnim{
+.colorText .colorText1{
+   animation: 2s infinite textAnim1;
+}
+.colorText .colorText2{
+    animation: 2s infinite textAnim2;
+}
+.colorText .colorText3{
+   animation: 2s infinite textAnim3;
+}
+@keyframes textAnim1{
     0%{
         color: rgba(0, 124, 203, 1);
     }
-    25%{
-        color: rgba(254, 254, 254, 1);
+    16%{
+        color: #fefefe;
     }
-    50%{
+    32%{
+        color: #fefefe;
+    }
+    64%{
         color: rgba(0, 124, 203, 1);
     }
-    75%{
-        color: rgba(254, 254, 254, 1);
+    83%{
+        color: #fefefe;
+    }
+    100%{
+        color: #fefefe;
+    }
+}
+@keyframes textAnim2{
+    0%{
+        color: #fefefe;
+    }
+    16%{
+        color: rgba(0, 124, 203, 1);
+    }
+    32%{
+        color: #fefefe;
+    }
+    64%{
+        color: #fefefe;
+    }
+    83%{
+        color: rgba(0, 124, 203, 1);
+    }
+    100%{
+        color: #fefefe;
+    }
+}
+@keyframes textAnim3{
+    0%{
+        color: #fefefe;
+    }
+    16%{
+        color: #fefefe;
+    }
+    32%{
+        color: rgba(0, 124, 203, 1);
+    }
+    64%{
+        color: #fefefe;
+    }
+    83%{
+        color: #fefefe;
     }
     100%{
         color: rgba(0, 124, 203, 1);
@@ -439,12 +490,6 @@ body{
     left: 40px;
     font-size: 20px;
     cursor: pointer;
-}
-.account a{
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
-    color: #fefefe;
 }
 .message{
     font-size: 16px;

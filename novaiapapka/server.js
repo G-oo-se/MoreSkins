@@ -96,7 +96,10 @@ app.get('', (req,res)=>{
     res.render('index');
 });
 app.get('/main2', (req,res)=>{
-    res.render('index2')
+    res.render('index2');
+});
+app.get('/market', (req, res)=>{
+    res.render('index4');
 });
 app.get('/users', async (req, res) => {
     try{
